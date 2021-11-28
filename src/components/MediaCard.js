@@ -11,7 +11,7 @@ export default function MediaCard(props) {
                 component="img"
                 height="340"
                 image={props.image}
-                alt="green iguana"
+                alt="beer"
             />
             <CardContent>
                 <Typography gutterBottom variant="h5" component="div">

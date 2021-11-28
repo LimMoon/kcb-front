@@ -4,21 +4,21 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 
-export default function GoodsCard(props) {
+export default function EventsCard(props) {
     return (
-        <Card sx={{ minWidth: 150 }}>
+        <Card sx={{ minWidth: 200 }}>
             <CardMedia
                 component="img"
-                height="300"
+                height="250"
                 image={props.image}
                 alt="green iguana"
             />
             <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                    에코백
+                <Typography gutterBottom variant="body2" component="div">
+                    서울 집시 캔 릴리즈 데이
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                    5000포인트
+                    2021.12.30 ~ 31
                 </Typography>
             </CardContent>
         </Card>
