@@ -9,14 +9,11 @@ const CustomAppBar = withStyles({
     root: {
         backgroundColor: '#696868',
     },
-    selected: {
-        backgroundColor: '#696868',
-    },
 })(AppBar);
 
 const Footer = () => {
     return (
-        <CustomAppBar position="static" color='#696868' >
+        <CustomAppBar position="static" >
             <Container maxWidth="md">
                 <Box
                     spacing={1}

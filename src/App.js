@@ -10,6 +10,7 @@ import BreweryPage from './pages/breweriesPage';
 import BrewPubPage from './pages/brewPubs';
 import MyPage from './pages/myPage';
 import GoodsPage from './pages/goodsPage';
+import React from 'react';
 
 const darkTheme = createTheme({
   palette: {
@@ -25,6 +26,7 @@ const darkTheme = createTheme({
 });
 
 function App() {
+
   return (
     <ThemeProvider theme={darkTheme}>
       <div>
